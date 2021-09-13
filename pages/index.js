@@ -110,7 +110,7 @@ function Home() {
                      name="uname"
                      value={uname}
                      onChange={handleChangeInput}
-                     className="w-full uppercase md:mt-5 mt-2 rounded-full bg-opacity-30 bg-white h-10 text-white text-center font-cocogoose focus:bg-opacity-20 shadow-lg"
+                     className="w-full uppercase focus:outline-none md:mt-5 mt-2 rounded-full bg-opacity-30 bg-white h-10 text-white text-center font-cocogoose focus:bg-opacity-20 shadow-lg"
                   />
                   <div className="text-center font-cocogoose text-6xl md:mt-10 mt-5">
                      ❤
@@ -123,7 +123,7 @@ function Home() {
                      name="hname"
                      value={hname}
                      onChange={handleChangeInput}
-                     className="w-full uppercase md:mt-5 mt-2 rounded-full bg-opacity-30 bg-white h-10 text-white text-center font-cocogoose focus:bg-opacity-20 shadow-lg"
+                     className="w-full uppercase md:mt-5 mt-2 focus:outline-none rounded-full bg-opacity-30 bg-white h-10 text-white text-center font-cocogoose focus:bg-opacity-20 shadow-lg"
                   />
                   <div className="justify-center flex">
                      <button className="font-cocogoose bg-white text-red-500 p-3 md:px-4 px-10 rounded-full md:mt-10 mt-5 hover:bg-red-200 hover:text-red-500">
